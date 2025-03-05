@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tytuł</title>
+    <link rel="stylesheet" href="kolor.css">
+</head>
+<body>
+Liczba pierwsza: 
+<input type="number" id="txt1" name="text1" value="1"><br>
+Liczba druga:
+<input type="number" id="txt2" name="text2" value="2"><br>
+
+    <script>
+        function myFunction() {
+var y = document.getElementById("txt1").value;
+var z = document.getElementById("txt2").value;
+var x = y + z;
+document.getElementById("demo").innerHTML = x;
+}
+    </script>
+
+<button type="button" onclick="myFunction()">test</button>
+</body>
+</html>
